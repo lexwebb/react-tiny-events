@@ -11,9 +11,6 @@ importers:
       embedme:
         specifier: ^1.22.1
         version: 1.22.1
-      ts-readme-generator:
-        specifier: ^0.7.3
-        version: 0.7.3
 
   example:
     dependencies:
@@ -877,11 +874,6 @@ packages:
       fast-json-stable-stringify: 2.1.0
       json-schema-traverse: 0.4.1
       uri-js: 4.4.1
-    dev: true
-
-  /ansi-regex@2.1.1:
-    resolution: {integrity: sha512-TIGnTpdo+E3+pCyAluZvtED5p5wCqLdezCyhPZzKPcxvFplEt4i+W7OONCKgeZFT3+y5NZZfOOS/Bdcanm1MYA==}
-    engines: {node: '>=0.10.0'}
     dev: true
 
   /ansi-regex@5.0.1:
@@ -2618,12 +2610,6 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /neodoc@2.0.2:
-    resolution: {integrity: sha512-NAppJ0YecKWdhSXFYCHbo6RutiX8vOt/Jo3l46mUg6pQlpJNaqc5cGxdrW2jITQm5JIYySbFVPDl3RrREXNyPw==}
-    dependencies:
-      ansi-regex: 2.1.1
-    dev: true
-
   /normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
@@ -3243,15 +3229,6 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /ts-readme-generator@0.7.3:
-    resolution: {integrity: sha512-P5a6QSpzDdIpcCuh3hwKNsiUO88yfoFX0OYoadumI1E9BxSUCx1UxGx+hD8iq6k6gMOL5lvH1CQ5vt8yQDBMfg==}
-    engines: {node: '>=12'}
-    hasBin: true
-    dependencies:
-      neodoc: 2.0.2
-      typescript: 3.9.10
-    dev: true
-
   /tsconfig-paths@3.15.0:
     resolution: {integrity: sha512-2Ac2RgzDe/cn48GvOe3M+o82pEFewD3UPbyoUHHdKasHwJKjds4fLXWf/Ux5kATBKN20oaFGu+jbElp1pos0mg==}
     dependencies:
@@ -3376,12 +3353,6 @@ packages:
       typescript: 5.3.3
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /typescript@3.9.10:
-    resolution: {integrity: sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
     dev: true
 
   /typescript@5.3.3:

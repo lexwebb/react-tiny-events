@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "update-readme": "embedme README.md && ts-readme-generator"
+    "build": "pnpm --filter react-tiny-events run build",
+    "update-readme": "embedme README.md"
   },
   "keywords": [],
   "author": "github.com/lexwebb",
   "license": "MIT",
   "devDependencies": {
-    "embedme": "^1.22.1",
-    "ts-readme-generator": "^0.7.3"
+    "embedme": "^1.22.1"
   }
 }
