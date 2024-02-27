@@ -1,7 +1,7 @@
 {
   "name": "react-tiny-events-workspace",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tiny event emitter for React",
   "scripts": {
     "build": "pnpm --filter react-tiny-events run build",
     "update-readme": "embedme README.md"
