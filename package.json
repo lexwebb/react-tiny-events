@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A tiny event emitter for React",
   "scripts": {
-    "build": "pnpm --filter react-tiny-events run build",
+    "build": "pnpm --filter react-tiny-events run build && cp ./README.md ./lib/dist/README.md",
     "update-readme": "embedme README.md"
   },
   "keywords": [],
