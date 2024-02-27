@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "./lib"
+		},
+		{
+			"path": "./example"
+		}
+	],
+	"settings": {
+		"typescript.enablePromptUseWorkspaceTsdk": true,
+		"typescript.tsserver.experimental.enableProjectDiagnostics": true,
+	}
+}
