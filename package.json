@@ -2,8 +2,12 @@
   "name": "react-tiny-events-workspace",
   "version": "1.0.0",
   "description": "A tiny event emitter for React",
+  "private": true,
   "scripts": {
-    "build": "pnpm --filter react-tiny-events run build && cp ./README.md ./lib/dist/README.md",
+    "build": "pnpm run build:lib && pnpm run package",
+    "build:lib": "pnpm --filter react-tiny-events run build",
+    "package": "cp ./README.md ./lib/README.md",
+    "pub": "cd lib && npm publish",
     "update-readme": "embedme README.md"
   },
   "keywords": [],
