@@ -8,12 +8,14 @@
     "build:lib": "pnpm --filter react-tiny-events run build",
     "package": "cp ./README.md ./lib/README.md",
     "pub": "cd lib && npm publish",
-    "update-readme": "embedme README.md"
+    "update-readme": "embedme README.md",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "github.com/lexwebb",
   "license": "MIT",
   "devDependencies": {
-    "embedme": "^1.22.1"
+    "embedme": "^1.22.1",
+    "husky": "^9.0.11"
   }
 }
