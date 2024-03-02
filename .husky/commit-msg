@@ -3,5 +3,5 @@
 # fix for windows systems
 PATH="/c/Program Files/nodejs:$HOME/AppData/Roaming/npm/:$PATH"
 
-pnpx commitlint --edit
+pnpm exec commitlint --edit
 
